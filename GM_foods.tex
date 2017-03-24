@@ -1,0 +1,533 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Proceedings of the National Academy of Sciences (PNAS)
+% LaTeX Template
+% Version 1.0 (19/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% The PNAStwo class was created and is owned by PNAS:
+% http://www.pnas.org/site/authors/LaTex.xhtml
+% This template has been modified from the blank PNAS template to include
+% examples of how to insert content and drastically change commenting. The
+% structural integrity is maintained as in the original blank template.
+%
+% Original header:
+%% PNAStmpl.tex
+%% Template file to use for PNAS articles prepared in LaTeX
+%% Version: Apr 14, 2008
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+% BASIC CLASS FILE
+%------------------------------------------------
+
+%% PNAStwo for two column articles is called by default.
+%% Uncomment PNASone for single column articles. One column class
+%% and style files are available upon request from pnas@nas.edu.
+
+%\documentclass{pnasone}
+\documentclass{pnastwo}
+
+%------------------------------------------------
+% POSITION OF TEXT
+%------------------------------------------------
+
+%% Changing position of text on physical page:
+%% Since not all printers position
+%% the printed page in the same place on the physical page,
+%% you can change the position yourself here, if you need to:
+
+% \advance\voffset -.5in % Minus dimension will raise the printed page on the
+                         %  physical page; positive dimension will lower it.
+
+%% You may set the dimension to the size that you need.
+
+%------------------------------------------------
+% GRAPHICS STYLE FILE
+%------------------------------------------------
+
+%% Requires graphics style file (graphicx.sty), used for inserting
+%% .eps/image files into LaTeX articles.
+%% Note that inclusion of .eps files is for your reference only;
+%% when submitting to PNAS please submit figures separately.
+
+%% Type into the square brackets the name of the driver program
+%% that you are using. If you don't know, try dvips, which is the
+%% most common PC driver, or textures for the Mac. These are the options:
+
+% [dvips], [xdvi], [dvipdf], [dvipdfm], [dvipdfmx], [pdftex], [dvipsone],
+% [dviwindo], [emtex], [dviwin], [pctexps], [pctexwin], [pctexhp], [pctex32],
+% [truetex], [tcidvi], [vtex], [oztex], [textures], [xetex]
+
+\usepackage{graphicx}
+
+%------------------------------------------------
+% OPTIONAL POSTSCRIPT FONT FILES
+%------------------------------------------------
+
+%% PostScript font files: You may need to edit the PNASoneF.sty
+%% or PNAStwoF.sty file to make the font names match those on your system.
+%% Alternatively, you can leave the font style file commands commented out
+%% and typeset your article using the default Computer Modern
+%% fonts (recommended). If accepted, your article will be typeset
+%% at PNAS using PostScript fonts.
+
+% Choose PNASoneF for one column; PNAStwoF for two column:
+%\usepackage{PNASoneF}
+%\usepackage{PNAStwoF}
+
+%------------------------------------------------
+% ADDITIONAL OPTIONAL STYLE FILES
+%------------------------------------------------
+
+%% The AMS math files are commonly used to gain access to useful features
+%% like extended math fonts and math commands.
+
+\usepackage{amssymb,amsfonts,amsmath}
+
+%------------------------------------------------
+% OPTIONAL MACRO FILES
+%------------------------------------------------
+
+%% Insert self-defined macros here.
+%% \newcommand definitions are recommended; \def definitions are supported
+
+%\newcommand{\mfrac}[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+%\def\s{\sigma}
+
+%------------------------------------------------
+% DO NOT EDIT THIS SECTION
+%------------------------------------------------
+
+%% For PNAS Only:
+\contributor{Submitted to Yunfan}
+\url{https://github.com/aftercomer/My-Papers}
+\copyrightyear{2016}
+\issuedate{2016}
+\volume{1}
+\issuenumber{24}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND AUTHORS
+%----------------------------------------------------------------------------------------
+
+\title{Genetically modified foods, an ethic problem for our society} % For titles, only capitalize the first letter
+
+%------------------------------------------------
+
+%% Enter authors via the \author command.
+%% Use \affil to define affiliations.
+%% (Leave no spaces between author name and \affil command)
+
+%% Note that the \thanks{} command has been disabled in favor of
+%% a generic, reserved space for PNAS publication footnotes.
+
+%% \author{<author name>
+%% \affil{<number>}{<Institution>}} One number for each institution.
+%% The same number should be used for authors that
+%% are affiliated with the same institution, after the first time
+%% only the number is needed, ie, \affil{number}{text}, \affil{number}{}
+%% Then, before last author ...
+%% \and
+%% \author{<author name>
+%% \affil{<number>}{}}
+
+%% For example, assuming Garcia and Sonnery are both affiliated with
+%% Universidad de Murcia:
+%% \author{Roberta Graff\affil{1}{University of Cambridge, Cambridge,
+%% United Kingdom},
+%% Javier de Ruiz Garcia\affil{2}{Universidad de Murcia, Bioquimica y Biologia
+%% Molecular, Murcia, Spain}, \and Franklin Sonnery\affil{2}{}}
+
+\author{Ma Tianyi\affil{1}{Jilin University},
+{}}
+
+\contributor{Submitted to Yunfan}
+
+%----------------------------------------------------------------------------------------
+
+\maketitle % The \maketitle command is necessary to build the title page
+
+\begin{article}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT, KEYWORDS AND ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+This article mainly talks about whether Chinese government should promote the produce of Genetically Modified foods or not. With Pinker’s Model of ethic and a close observation of China’s society. It’s improper for government permit Genetically Modified foods in China.
+\end{abstract}
+
+%------------------------------------------------
+
+\keywords{Genetically Modified food | China } % When adding keywords, separate each term with a straight line: |
+
+%------------------------------------------------
+
+%% Optional for entering abbreviations, separate the abbreviation from
+%% its definition with a comma, separate each pair with a semicolon:
+%% for example:
+%% \abbreviations{SAM, self-assembled monolayer; OTS,
+%% octadecyltrichlorosilane}
+
+% \abbreviations{}
+\abbreviations{GM, Genetically Modified; ICSU, International Council for Science ; WHO, World Health Organization}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION CONTENT
+%----------------------------------------------------------------------------------------
+
+%% The first letter of the article should be drop cap: \dropcap{} e.g.,
+%\dropcap{I}n this article we study the evolution of ''almost-sharp'' fronts
+
+\section{Introduction}
+
+\dropcap{T}oday, a fully understanding of GM foods and how to deal with them wisely is necessary for the sustainable development of human society. There are lots of debates about Genetically Modified foods from their necessities to their safety. Besides, the role that government should play is also a important question. Observing China’s society and with Steven Pinker’s five-sphere moral theory. In China, government should ban Genetically Modified foods in general to comfort people and never allow GM foods until the whole society believe in its safety.
+
+
+
+
+
+
+%------------------------------------------------
+
+\section{The dilemma of GM foods}
+
+
+There is no doubt that Genetically Modified foods are necessary. Many studies show, world population will increase by 2 or 3 billion before 2050, and the demand of food might be doubled. At the same time, agriculture activities have already became one of the top threat to environment because of fertilizer abusing, consuming huge amount of water and releasing 35\% of total greenhouse gas. About 1 billion peo-ple are starving now even we produce enough food due to the high price of food and transportation problems. With so many difficulties, scientists developed Genetically Modified foods. GM foods are designed to be safe to human, productive, cheap and able to grow in varieties of environments.
+
+
+It should be part of the final solution to food shortage and environment crisis. However, GM foods also have their own problems, ethic problems. China’s environment is much different from western counties. There is no powerful anti-GM organizations working against GM foods; instead, it’s a common doubt about GM foods. In his famous Protestant Ethics and The Spirit of Capitalism, Max Weber showed complex interactions between ethic principles and capitalism spirit. Without protestant ethics, the capitalism may not come into exist or become very scary since the nature of capitalism is to make as much money as it can and concern nothing else. In a country which managed to survive from many belief earthquakes in less a century , people hardly believe in some-thing spiritual, hence moral senses are easily broke by the temptation of money; wit-nessing so many people even high rank governors choose to give up souls for fortune, people refuse to believe others: farmers, food companies, scientists, government. And then the old living style is the best living style because it’s safe. So if somebody say GM foods are not safe and it’s just another trick of food companies to make more money, people trust it, it makes sense; but when government say GM foods are safe, some-body will argue why EU have a much more conservative attitude, we will think there may be a special Interest group to influence the government and this policy is just based on inauthentique studies like the one-child policy. That’s what happening now right here.
+
+%\subsection{Simulations}
+
+%\subsubsection{Simulation 1}
+
+%Vivamus magna enim, aliquet id cursus a, pharetra ut purus. Phasellus suscipit nisi iaculis mi vulputate id interdum velit dictum. Nam ullamcorper elit in lectus ultrices vitae volutpat massa gravida. Etiam sagittis commodo neque eget placerat. Sed et nisi faucibus metus interdum adipiscing id nec lacus. Donec ipsum diam, malesuada at euismod consectetur, placerat quis diam. Phasellus cursus semper viverra. Proin magna tortor, blandit in ultricies id, facilisis at nibh. Proin eu neque est. Etiam euismod auctor ante. Mauris mauris sem, tincidunt a placerat rutrum, porta id est. Aenean non velit porta eros condimentum facilisis at in nibh. Etiam cursus purus ut orci rhoncus sit amet semper eros porttitor. Etiam ac leo at ipsum tincidunt consequat ac non sapien. Aenean sed leo diam, venenatis pharetra odio.
+
+%\subsubsection{Simulation 2}
+
+%Suspendisse viverra eleifend nulla at facilisis. Nullam eget tellus orci. Cras sit amet lorem velit. Maecenas rhoncus pellentesque orci eget vulputate. Phasellus massa nisi, mattis nec elementum accumsan, blandit non neque. In ac enim elit, sit amet luctus ante. Cras feugiat commodo lectus, vitae convallis dui sagittis id. In in tellus lacus, sed lobortis eros. Phasellus sit amet eleifend velit. Duis ornare dapibus porttitor. Maecenas eros velit, dignissim at egestas in, tincidunt lacinia erat. Proin elementum mi vel lectus suscipit fringilla. Mauris justo est, ullamcorper in rutrum interdum, accumsan eget mi. Maecenas ut massa aliquet purus eleifend vehicula in a nisi. Fusce molestie cursus lacinia.
+
+%\subsection{Real Data}
+
+%Aliquam interdum pellentesque scelerisque. Sed tincidunt suscipit purus, id aliquet nulla vehicula quis. Duis sed nisl lorem. Vivamus erat ante, dignissim et aliquam vel, adipiscing vitae magna. Cras id dapibus metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin ut lectus ut nisi congue ullamcorper. Ut ac turpis ligula. Sed faucibus bibendum nunc eget gravida.
+
+%------------------------------------------------
+
+\section{Safety \& Public Acceptance}
+
+Is it safe indeed? The shortest answer is yes, but it’s not the best answer. There are huge debates about GM Foods’ safety. The standard of “safe” is a key point to answer this question, but different people hold different ideas. World Health Organization pointed:Different GM organisms include different genes inserted in different ways. This means that individual GM foods and their safety should be assessed on a case-by-case basis and that it is not possible to make general statements on the safety of all GM foods. GM foods currently available on the international market have passed safety assessments and are not likely to present risks for human health. In addition, no effects on human health have been shown as a result of the consumption of such foods by the general population in the countries where they have been approved.
+
+
+And another research also mention that the level of safety of current BD foods to consumers appears to be equivalent to that of traditional foods. Verified records of ad-verse health effects are absent, although the current passive reporting system would probably not detect minor or rare adverse effects, nor can it detect a moderate increase in common effects such as diarrhea. However, this is no guarantee that all future genet-ic modifications will have such apparently benign and predictable results. A continuing evolution of toxicological methodologies and regulatory strategies will be necessary to ensure that this level of safety is maintained.
+
+
+In fact, science can prove hazard, if one exists, but cannot prove to the standard required of science--the absence of hazard. And it is this impossible standard that some people are demanding, perhaps not always realizing it is not scientifically valid. \cite{AM}
+
+
+But instead of governments and scientists’ confident, people still prefer to non-GM foods, especially in European countries such as UK, even they are more expensive. W. Moon and Siva Balasubramanian mentioned.
+
+
+Our analyses of the NPD survey data confirm substantive divergences between the US and UK in two key respects: (1) perceptions about the negative aspects of agro-biotechnology and (2) the extent that consumers trust the government in securing the safety of foods, in general, and GM foods, in particular. United Kingdom consumers exhibit higher distrust of regulatory agencies and associate agro-biotechnology with negative attributes more intensely than US consumers. These insights are likely to underlie the discrepancy in the levels of public acceptance of GM foods across the US and UK. \cite{WMSK}
+
+
+Why different the ordinary people don’t like GM foods like agriculture professors? Why people living in European don’t accept GM foods like American people? According to Stuart J Smyth and Peter WB Phillips, the reason is that different people choose different models, or in their article: equations, to calculate risk.
+
+
+
+$RISK = HAZARD \times EXPOSURE$ works for scientists;\\$RISK = HAZARD \times EXPOSURE \times OUTRAGE$ works for real life;$RISK = OUTRAGE \times NGO- PRESSURE \\ \times UNSUBSTANTIATED INFORMATION$ works for policy-makers. \cite{SSPP}
+
+
+In that article, Stuart and Peter argued that these equations are not all reasonable and government should limit the influence of public pressure and do the right thing. But we should also notice the factor which seems not ``scientific enough'' is standing for public’s opinions. Government must stand for the majority of its people and fully respect people’s freedom. If most people think GM foods are dangerous and wish them disappear, government have to respect people’s choice. Government can persuade people to understand GM foods’ safety, but the decision must make by people. If government simply carry out a policy and don’t gain people’s agreement, that will be a violate to people’s freedom and that’s not ethic. Just as Katy, Alan, Malcolm and Guy point out.
+
+Risk analysis addresses societal concerns in several ways. First, the specification of management goals in legislation reflects societal concerns. Specific assessment endpoints, such as the populations or habitats of rare species, are also reflections of what society considers important. Another area where societal concerns are incorporated is decision making. The result of the scientific risk assessment is not the decision whether or not to permit the cultivation of a GM crop; it is not even the only factor on which a decision is made. A decision will be made based on the amount of risk that is acceptable (the threshold value) if the crop is permitted to be cultivated, and, just as importantly, the risks of not permitting cultivation. Acceptable risk cannot be determined purely scientifically: science can predict the likelihood of certain effects, but non-scientific criteria must be included in the process of judging their acceptability. \cite{KAM}
+
+
+In China, government’s attitude is positive: The Department of Agriculture showed great interests and have a strong confidence in GM foods. But on the other side, from ordinary people to scholars, the society feels nervous about GM foods; Cui Yongyuan, a famous host in CCTV, directed a film to investigate the safety of GM foods by himself, which caused another huge debate. In short, the government believe GM foods which could pass serious examinations are safe thus allow GM foods’ produce; but the society don’t agree. Some people doubt the results of exams are fake, and others think government just simply believe its safety on its own standard and make the decision with-out consider public attitude is not ethic.
+
+
+\section{Government, not only the rule maker, but also a player}
+Chinese government’s position and duty is very different from western; it not only makes rules for markets and watch it running; it is also the biggest player in the market. Unlike American or European, we have less way to get our food. It’s almost impossible for people in cities to buy foods from farmers directly. If you are not a millionaire, we everyone will eat almost the same food. We never know who produce our vegetables, just like we have no idea about whether the farmer use too much chemicals. Frankly, people have no confidence in our food: Common people know nothing about farmers just like we can do nothing to change food companies. The government is the only one to protect us. We don’t have different foods for us to choose, as there is only one kind of food: Passed by Government. So in China, the government couldn’t just simply say “If you don’t like GM foods, just don’t buy it.” If government allow companies to produce GM foods, there will be nothing but only GM foods in market because producing GM foods can make much, much, more profit than normal foods. Just think about the soy-bean producing in China, in 1990s, we were famous for soybean export, but now we import 12,000,000 tons in 2000. Not because we consume more like oil or gas; it’s be-cause we lose this battle, our farmers give up producing soybean since there is no chance to beat GM soybean in price. American soybean is just too cheap.
+
+
+Is it ethic for government to decided whether there will be GM foods or not? Well, that depends. According to Steven Pinker, there are five universal moral spheres: harm, fairness, community, authority and purity. But how they are ranked is important and it depends on culture. \cite{SP}  In China, we naturally rank community and authority a little higher because of history and culture. Deep in our souls, we believe the whole country is a family and the government is the mother. She should not only be a night keeper, set rulers and let it run; she should be responsible for everything! Watching companies competing with each other and let the weaker broke is fair enough, but it’s also her duty to help the weaker ones and let everyone living together is what should happen in community; make sure GM foods are safe enough and let market decided whether it can survive is not enough, her duty include explaining what happened and make sure everyone understood. If government allow GM foods in Chinese markets, it will be far from “Fairness” for both sides. Farmers who prefer to conservative plates will be wipe out from the market easily because of both price and customers can hardly get it too. And carrying out a policy without public understood will also be a great damage to government’s authority and hurt people’s feelings.
+
+
+\section{Common understanding, the key of solution}
+Ethic matters in everything practical. In order to keep government’s authority and people’s freedom, we must have common understanding with GM foods before acting. Only by working together, we can respect everyone’s opinion. There are two levels of common understand: the importance of introducing GM foods; the safety standard of GM foods. Firstly, we must figure out the importance of GM foods, whether we should accept it and what potential consequence GM foods would bring. If we can arrange more farming lands, invent new environment-friendly fertilizers and protect traditional foods even violate the WTO’s regulations, we might just say no to GM foods. But facing so many challenges, we have to make our decisions more carefully. Accepting it is also a hard choice because of the consequences might be very serious and unpredictable. Secondly, have an international safety standard which is well-accepted by all societies and most people is very important. It’s extremely hard for both scientists and politicians. Proving something is absolute safe is as hard as forming a world government. But we can’t say something is not necessary because it’s hard. We wiped out smallpox; we landed on Moon; the International Space Station is orbiting Earth 24/7. If we want to do something, we can make it.
+
+
+``With the plantation and introduction of GM crops being a basic agricultural policy of our country, alleviating public concerns over the safety of GM food has never been more important for the central government. The GM policy of the authorities can only be fully understood, acknowledged and accepted by the public only after GM technologies are thoroughly explained and discussed in genuine dialogues between agricultural scientists, officials and ordinary citizens'' China Daily once argued. This comment from China’s official media stressed on the importance of common understand, but it’s not enough. We must firstly get people’s agreement than made the policy.
+
+
+\section{Is it ethical to take the risk to feed people with GM Foods without a common understand?}
+
+
+We cannot talk about a ethical problem without the background environment, just like the famous Trolley Problem devised by the philosophers Philippa Foot and Judith Jarvis Thomson. So focus on China, according to Reimei Wang and Liuwen Zhou, Chi-na is facing a very danger condition: We have 7\% of world farming land while feed 20\% of world population; our Inventory consumption ratio is far above 17\%~18\% of the global security line and achieve 40\% to secure food safe.
+
+
+Facing these problems, and with the statements from ICSU and WHO, government believe in the chance of food revolution. GM foods are safe enough so far: no direct evidence shows GM foods is dangerous for nearly 20 years. And it’s government’s duty to feed their people. It’s her duty to keep her authority and keep people from harm.
+
+
+
+Allow companies to produce GM foods right now is not ethical. The key point is not how safe it is, it’s about whether the society believe in it. If government allow GM Foods, it means people will have little chance to eat normal food any longer. And we should have the right to decide what we want to eat. Government should not carry out a policy which the majority of its population still argue about. For example, in 1920s, Prohibition, the result of progressivism, didn’t achieve its goal; instead, it caused the growth of gangsters. Every word and action from the government will make a huge difference in China so the policy makers must have a clear thought about what will happen next.
+
+
+Government should represent the will of its majority of people rather than any special interest group. If people don’t like GM foods, then the government should respect people’s choice. Government could use mass media, education or other ways to persuade people to change their ideas. In this case, by carrying out more experiments is a good idea. Inviting governors or even president to eat GM foods is another good idea. These methods may change people’s mind. But simply keep people outside the pro-cess of decision making is not ethic. People have the freedom to living in the world they choose, especially in this case, people are not calling government to declare an unjust war or something that may violate basic human rights or spirits like Nazi Germany. People just want to decide what they are going to eat on the dinner table. With the cur-rent policy which ordinary people have no right to change anything, people will only be more nervous and hardly accept GM foods.
+
+
+\section{Conclusion}
+GM foods are necessary; our lands can hardly bear more agriculture activities to produce more food but the world’s population will not reduce in decades; with the development of economy, people are consuming more meat or beef which will increase the demand of soybean. Developing GM foods is one of the most possible solution. But it doesn’t mean anyone can lower the standard of GM foods’ safety because we need GM foods, just like we can’t design stricter exams because of it’s so hard. And government should respect the attitude of majority of people and do more to persuade people to accept GM foods rather than simply carry out new policy. These changes are hard but necessary. I’d like to end this article with part of John F. Kennedy’s speech. In this 1962 speech given at Rice University in Houston, Texas, he said:
+
+
+
+ ``We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, be-cause that challenge is one that we are willing to accept, one we are unwilling to post-pone, and one which we intend to win, and the others, too.''
+
+
+%----------------------------------------------------------------------------------------
+%	MATERIALS AND METHODS
+%----------------------------------------------------------------------------------------
+
+%% Optional Materials and Methods Section
+%% The Materials and Methods section header will be added automatically.
+
+%\begin{materials}
+%Suspendisse viverra eleifend nulla at facilisis. Nullam eget tellus orci. Cras sit amet lorem velit. Maecenas rhoncus pellentesque orci eget vulputate. Phasellus massa nisi, mattis nec elementum accumsan, blandit non neque. In ac enim elit, sit amet luctus ante. Cras feugiat commodo lectus, vitae convallis dui sagittis id. In in tellus lacus, sed lobortis eros. Phasellus sit amet eleifend velit. Duis ornare dapibus porttitor. Maecenas eros velit, dignissim at egestas in, tincidunt lacinia erat. Proin elementum mi vel lectus suscipit fringilla. Mauris justo est, ullamcorper in rutrum interdum, accumsan eget mi. Maecenas ut massa aliquet purus eleifend vehicula in a nisi. Fusce molestie cursus lacinia.
+
+%\begin{definition}
+%A bounded function $\theta$ is a weak solution of QG if for any
+%$\phi\,\epsilon\,
+%C_0^{\infty}(\fdb\times\mathbb{R}\times[0,\vep])$ we have
+%\begin{eqnarray}
+%&&  \int_{\mathbb{R}^+\times\fd\times\mathbb{R}} \hspace{-25pt}
+% \theta(x,y,t)\, \pr_t \phi
+%\,(x,y,t) dy dx dt+\nonumber\\
+%  & +&\int_{\mathbb{R}^+\times\fd\times\mathbb{R}}
+%\hspace{-26pt} \theta\,(x,y,t) u(x,y,t)\cdot\nabla\phi\,(x,y,t)
+%dydxdt = 0 \label{weaksol} \end{eqnarray}
+%where $u$ is determined previously.
+%\end{definition}
+
+%Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris eu sapien nunc, sit amet accumsan dui. Nulla ac diam ut nunc placerat semper eget et libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras hendrerit ullamcorper sapien vitae luctus. Quisque vel diam massa. Vestibulum dui nibh, facilisis vel vestibulum eu, viverra in quam.
+
+%\begin{theorem}
+%If the active scalar $\theta$ satisfies
+%the equation \eqref{weaksol}, then $\varphi$ satisfies the equation
+%\begin{eqnarray}
+%\mfrac{\pr \varphi}{\pr t}(x,t)&=&\hspace{-2pt}\dst
+%\int_{\fd}\mfrac{\mfrac{\pr \varphi}{\pr x}(x,t)-\mfrac{\pr
+%\varphi}{\pr
+%u}(u,t)}{[(x-u)^{2}+(\varphi(x,t)-\varphi(u,t))^{2}]^{\f12}}\nonumber\\
+%&&
+%\chi(x-u,\varphi(x,t)-\varphi(u,t)) du \hspace{3pt} +
+%\nonumber\\
+%&+&\dst \int_{\fd} \Big{[}\mfrac{\pr \varphi} {\pr
+%x}(x,t)-\mfrac{\pr \varphi}{\pr u} (u,t)\Big{]}
+%\nonumber\\&&
+%\eta(x-u,\varphi(x,t)-\varphi(u,t)) du + Error
+%\end{eqnarray}
+%with $|Error|\leq C\, \delta | log\delta| $ where $C$ depends only
+%on $\|\theta\|_{L^{\infty}}$ and $\|
+%\nabla\varphi\|_{L^{\infty}}$.
+%\end{theorem}
+
+%Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer accumsan ornare tortor at varius. Phasellus ullamcorper blandit dolor sit amet tempus. Curabitur ligula urna, ultrices in iaculis eu, eleifend vel urna. Praesent ullamcorper imperdiet purus, ut interdum sem interdum dictum. Proin euismod volutpat eros ac mattis. Quisque sit amet massa ac tortor cursus malesuada at vitae nisi. Nam quis neque et nunc vehicula cursus sit amet at tellus.
+%\end{materials}
+
+%----------------------------------------------------------------------------------------
+%	APPENDICES (OPTIONAL)
+%----------------------------------------------------------------------------------------
+
+%\appendix
+%An appendix without a title.
+
+%\appendix[Appendix title]
+%An appendix with a title.
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgments}
+This work was partially supported by a grant from School of Art and Sciences, Rutgers and Prof. Xu.
+\end{acknowledgments}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%% PNAS does not support submission of supporting .tex files such as BibTeX.
+%% Instead all references must be included in the article .tex document.
+%% If you currently use BibTeX, your bibliography is formed because the
+%% command \verb+\bibliography{}+ brings the <filename>.bbl file into your
+%% .tex document. To conform to PNAS requirements, copy the reference listings
+%% from your .bbl file and add them to the article .tex file, using the
+%% bibliography environment described above.
+
+%%  Contact pnas@nas.edu if you need assistance with your
+%%  bibliography.
+
+% Sample bibliography item in PNAS format:
+%% \bibitem{in-text reference} comma-separated author names up to 5,
+%% for more than 5 authors use first author last name et al. (year published)
+%% article title  {\it Journal Name} volume #: start page-end page.
+%% ie,
+% \bibitem{Neuhaus} Neuhaus J-M, Sitcher L, Meins F, Jr, Boller T (1991)
+% A short C-terminal sequence is necessary and sufficient for the
+% targeting of chitinases to the plant vacuole.
+% {\it Proc Natl Acad Sci USA} 88:10362-10366.
+
+
+%% Enter the largest bibliography number in the facing curly brackets
+%% following \begin{thebibliography}
+
+\begin{thebibliography}{10}
+\bibitem{AM}
+A.~McHughen, {\em GM crops and foods}, GM Crops \& Food, 3.4 (2013).
+
+
+\bibitem{KAM}
+K.~Johnson, A.~Raybould, M.~Hudson,and G.~Poppy {\em How does scientific risk assessment of GM crops fit within the wider risk analysis?}, TRENDS in Plant Science,
+  12.1 (2007), pp.~1--5.
+
+\bibitem{SP}
+S.~Pinker, {\em The Moral Instinct},2008.
+
+\bibitem{SSPP}
+S.~Smyth and P.~Philipps, {\em
+  Risk, regulation and biotechnology: The case of GM crops}, GM Crops \& Food, 5.3 (2014), pp.~170--177.
+
+\bibitem{WMSK}
+W.~Moon and S.K.~Balasubramanian, {\em PUBLIC PERCEPTIONS AND WILLINGNESS-TO-PAY A PREMIUM FOR NON-GM FOODS IN THE US AND UK}, AgBioForum, 4.3\&4 (2001), pp.~221--231.
+
+\bibitem{TS}
+ {\em The Safety of Genetically Modified Foods Produced through Biotechnology}, TOXICOLOGICAL SCIENCES, 71(2003),pp.~2--8.
+
+%\bibitem{GruterWidman:GreenFunction}
+%M.~Gr\"uter and K.-O. Widman, {\em The {G}reen function for uniformly
+ % elliptic equations}, Man. Math., 37 (1982), pp.~303--342.
+
+%\bibitem{Simon:NeumannEssentialSpectrum}
+%R.~Hempel, L.~Seco, and B.~Simon, {\em The essential spectrum of neumann
+ % laplacians on some bounded singular domains}, 1991.
+
+%\bibitem{1}
+%Kadison, R.\ V.\ and Singer, I.\ M.\ (1959)
+%Extensions of pure states, {\it Amer.\ J.\ Math.\ \bf
+%81}, 383-400.
+
+%\bibitem{2}
+%Anderson, J.\ (1981) A conjecture concerning the pure states of
+%$B(H)$ and a related theorem. in {\it Topics in Modern Operator
+%Theory}, Birkha\"user, pp.\ 27-43.
+
+%\bibitem{3}
+%Anderson, J.\ (1979) Extreme points in sets of
+%positive linear maps on $B(H)$. {\it J.\ Funct.\
+%Anal.\
+%\bf 31}, 195-217.
+
+%\bibitem{4}
+%Anderson, J.\ (1979) Pathology in the Calkin algebra. {\it J.\
+%Operator Theory \bf 2}, 159-167.
+
+%\bibitem{5}
+%Johnson, B.\ E.\ and Parrott, S.\ K.\ (1972) Operators commuting
+%with a von Neumann algebra modulo the set of compact operators.
+%{\it J.\ Funct.\ Anal.\ \bf 11}, 39-61.
+
+%\bibitem{6}
+%Akemann, C.\ and Weaver, N.\ (2004) Consistency of a
+%counterexample to Naimark's problem. {\it Proc.\ Nat.\ Acad.\
+%Sci.\ USA \bf 101}, 7522-7525.
+
+%\bibitem{TSL}
+%J.~Tenenbaum, V.~de~Silva, and J.~Langford, {\em A global geometric
+%  framework for nonlinear dimensionality reduction}, Science, 290 (2000),
+%  pp.~2319--2323.
+
+%\bibitem{ZhaZha}
+%Z.~Zhang and H.~Zha, {\em Principal manifolds and nonlinear dimension
+%  reduction via local tangent space alignement}, Tech. Report CSE-02-019,
+%  Department of computer science and engineering, Pennsylvania State
+%  University, 2002.
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{article}
+
+%----------------------------------------------------------------------------------------
+%	FIGURES AND TABLES
+%----------------------------------------------------------------------------------------
+
+%% Adding Figure and Table References
+%% Be sure to add figures and tables after \end{article}
+%% and before \end{document}
+
+%% For figures, put the caption below the illustration.
+%%
+%% \begin{figure}
+%% \caption{Almost Sharp Front}\label{afoto}
+%% \end{figure}
+
+%\begin{figure}[h]
+%\centerline{\includegraphics[width=0.4\linewidth]{placeholder.jpg}}
+%\caption{Figure caption}\label{placeholder}
+%\end{figure}
+
+%% For Tables, put caption above table
+%%
+%% Table caption should start with a capital letter, continue with lower case
+%% and not have a period at the end
+%% Using @{\vrule height ?? depth ?? width0pt} in the tabular preamble will
+%% keep that much space between every line in the table.
+
+%% \begin{table}
+%% \caption{Repeat length of longer allele by age of onset class}
+%% \begin{tabular}{@{\vrule height 10.5pt depth4pt  width0pt}lrcccc}
+%% table text
+%% \end{tabular}
+%% \end{table}
+
+%\begin{table}[h]
+%\caption{Table caption}\label{sampletable}
+%\begin{tabular}{l l l}
+%\hline
+%\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+%\hline
+%Treatment 1 & 0.0003262 & 0.562 \\
+%Treatment 2 & 0.0015681 & 0.910 \\
+%Treatment 3 & 0.0009271 & 0.296 \\
+%\hline
+%\end{tabular}
+%\end{table}
+
+%% For two column figures and tables, use the following:
+
+%% \begin{figure*}
+%% \caption{Almost Sharp Front}\label{afoto}
+%% \end{figure*}
+
+%% \begin{table*}
+%% \caption{Repeat length of longer allele by age of onset class}
+%% \begin{tabular}{ccc}
+%% table text
+%% \end{tabular}
+%% \end{table*}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
